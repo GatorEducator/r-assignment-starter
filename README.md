@@ -32,10 +32,7 @@ instead appear in the commit logs.
 
 <!-- UPDATE: introduce and describe the assignment here -->
 
-Introduce the R assignment here. As verified by
-[Checkstyle](https://github.com/checkstyle/checkstyle), the source code for all
-of the Java source code files must adhere to all of the requirements in the
-[Google Java Style Guide](https://google.github.io/styleguide/javaguide.html).
+Introduce the R assignment here.
 
 The programmer is also responsible for writing a reflection, stored in the file
 `writing/reflection.md`, that responds to the questions in the assignment sheet

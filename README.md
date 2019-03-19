@@ -184,7 +184,7 @@ assignment was developed for the following software and versions:
 <!-- UPDATE: update links to your starter repository and lab sheets repository -->
 
 If you have found a problem with this assignment's provided source code, then
-you can go to the [GatorGrader Sample Assignment](https://github.com/gatoreducator/python-starter)
+you can go to the [GatorGrader Sample Assignment](https://github.com/gatoreducator/r-assignment-starter)
 repository and create an issue by clicking the "Issues" tab and then clicking
 the green "New Issue" button. If you have found a problem with the [GatorGrader
 tool](https://github.com/gatored/gatorgrader) and the way that it checks your

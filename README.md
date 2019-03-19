@@ -1,7 +1,5 @@
 # GatorGrader Sample Laboratory Assignment
 
-## WARNING: this documentation is out of date
-
 ## Task list for assignment creation
 
 - Use `cp -rf *.*` to copy all of the files and directories in this repository

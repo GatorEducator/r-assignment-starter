@@ -1,5 +1,7 @@
 # GatorGrader Sample Laboratory Assignment
 
+## WARNING: this documentation is out of date
+
 ## Task list for assignment creation
 
 - Use `cp -rf *.*` to copy all of the files and directories in this repository
@@ -18,8 +20,10 @@
 - Contact Gregory M. Kapfhammer by email or Slack
 - Raise an issue in the GitHub repository
 
+<!-- UPDATE: describe what this repository contains -->
+
 Designed for use with [GitHub Classroom](https://classroom.github.com/), this
-repository contains an example assignment for use with GatorGrader and
+repository contains an example R assignment for use with GatorGrader and
 GatorGradle. Since the Travis builds for this repository will initially fail
 (as evidenced by a red &#x2717; appearing in the commit logs instead of a green
 &#x2714;), the programmer is responsible for completing all of the steps needed
@@ -28,18 +32,28 @@ instead appear in the commit logs.
 
 ## Introduction
 
-For this lab assignment you will extend your Decaf compiler to handle the syntax
-analysis phase, the second task of the front-end, by using bison to create a
-parser. The parser will read Decaf source programs and construct a parse tree.
-If no syntax errors are encountered, your code will print the completed parse
-tree as flat text. At this stage, you are not responsible for verifying meaning,
-just structure.
+<!-- UPDATE: introduce and describe the assignment here -->
 
-The goal of this lab is to familiarize you with the tools and give you
-experience in solving typical problems one encounters when using them to
-generate a parser. By conducting experiments using a compiler known to you, and
-by conducting a comparitive analysis of those results, you will learn how to
-handle the errors in your own compiler.
+Introduce the R assignment here. As verified by
+[Checkstyle](https://github.com/checkstyle/checkstyle), the source code for all
+of the Java source code files must adhere to all of the requirements in the
+[Google Java Style Guide](https://google.github.io/styleguide/javaguide.html).
+
+The programmer is also responsible for writing a reflection, stored in the file
+`writing/reflection.md`, that responds to the questions in the assignment sheet
+and explains the challenges that you faced and the solutions you developed.
+Please note that this is a Markdown file that must adhere to the standards
+described in the [Markdown Syntax
+Guide](https://guides.github.com/features/mastering-markdown/). Remember, you
+can preview the contents of a committed Markdown file by clicking on the name of
+the file in your GitHub repository. Finally, don't forget that your
+`writing/reflection.md` file should adhere to the Markdown standards established
+by the [Markdown linting tool](https://github.com/markdownlint/markdownlint) and
+the writing standards set by the [Proselint tool](http://proselint.com/).
+
+The source code in the submitted R source code files must also pass
+additional tests set by the [GatorGrader
+tool](https://github.com/gatored/gatorgrader).
 
 When you use the `git commit` command to transfer your source code to your
 GitHub repository, [Travis CI](https://travis-ci.com/) will initialize a build
@@ -65,14 +79,14 @@ following GitHub guides: [Mastering
 Markdown](https://guides.github.com/features/mastering-markdown/), [Hello
 World](https://guides.github.com/activities/hello-world/), and [Documenting Your
 Projects on GitHub](https://guides.github.com/features/wikis/). Each of these
-guides will help you to understand how to use both [GitHub](http://github.com)
-and [GitHub Classroom](https://classroom.github.com/).
+guides will help you to understand how to use both [GitHub](http://github.com) and
+[GitHub Classroom](https://classroom.github.com/).
 
-<!-- UPDATE: specify reading assignments if desired
+<!-- UPDATE: specify reading assignments -->
 
 To do well on this assignment, you should also review Chapter XX in your course
 textbook. Please see the course instructor or one of the teaching assistants or
-tutors if you have questions about any of these reading assignments.-->
+tutors if you have questions about any of these reading assignments.
 
 ## Commands
 
@@ -87,8 +101,8 @@ and writing are passing all of the automated checks. However, if the last line
 of the output indicates that there are mistakes, then you will need to
 understand what they are and then try to fix them.
 
-You can also complete several other important Java programming tasks by using
-the `gradle` tool. For instance, you can compile (i.e., create bytecode from the
+You can also complete several other important Java programming tasks by using the
+`gradle` tool. For instance, you can compile (i.e., create bytecode from the
 program's source code if it is a correct program) the program using the command
 `gradle build`. There are also additional commands that you can type:
 
@@ -106,11 +120,10 @@ command in the terminal and study the output.
 
 ## Output
 
-<!-- UPDATE: add sample output and update file name-->
-
 Typing the command `gradle run` in the terminal window produces the following
 output for the instructor's version of `samplelab.SampleLabMain`.
 
+<!-- UPDATE: add sample output -->
 
 Some sample output should be included here.
 
@@ -129,9 +142,10 @@ If the course instructor updates the provided material for this assignment and
 you would like to receive these updates, then you can type this command in the
 main directory for this assignment:
 
+<!-- UPDATE: add starter repository link -->
 
 ```
-git remote add download git@github.com:GatorEducator/cpp-assignment-starter.git
+git remote add download <starter repository git uri>
 ```
 
 You should only need to type this command once; typing the command additional
@@ -160,17 +174,22 @@ access the private repositories that you created on GitHub.
 
 ## Requirements
 
-Submit your entire parser using your git repository for this course. Be sure to
-include your Reflection file, which is your chance to explain your design
-decisions and why you believe your program to be correct and robust, as well as
-describe what to expect from your submission and its error handling.
+The GatorGrader and GatorGradle software that supports the checking of this
+assignment was developed for the following software and versions:
+
+- Gradle 4.6
+- Java 1.8.0
+- JUnit 4.9.0
+- MDL 0.4.0
+- Proselint 0.7.0
+- Python 3.5.2
 
 ## Problems
 
-<!-- UPDATE: update link to lab sheets repository -->
+<!-- UPDATE: update links to your starter repository and lab sheets repository -->
 
 If you have found a problem with this assignment's provided source code, then
-you can go to the [GatorGrader Sample Assignment](https://github.com/GatorEducator/cpp-assignment-starter)
+you can go to the [GatorGrader Sample Assignment](https://github.com/gatoreducator/python-starter)
 repository and create an issue by clicking the "Issues" tab and then clicking
 the green "New Issue" button. If you have found a problem with the [GatorGrader
 tool](https://github.com/gatored/gatorgrader) and the way that it checks your

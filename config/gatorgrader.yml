@@ -1,0 +1,16 @@
+---
+name: r-starter
+break: true
+fastfail: false
+indent: 4
+---
+src/example.r:
+        --exists
+        --fragment "print(" --count 1
+writing/reflection.md:
+    mdl
+    --paragraphs 3
+    --words 6
+img/icon.png:
+        --exists
+--commits 18

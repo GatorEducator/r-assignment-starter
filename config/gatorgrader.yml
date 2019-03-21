@@ -6,7 +6,7 @@ indent: 4
 ---
 src/example.r:
         --exists
-        --fragment "print(" --count 1
+        --fragment "cat(" --count 1
 writing/reflection.md:
     mdl
     --paragraphs 3

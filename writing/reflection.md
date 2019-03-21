@@ -1,14 +1,11 @@
-## Names:
-## Date:
+# R Lab Report
 
-# A Heading About Data
+## A Heading About Data
 
-Here's a paragraph about the data
+Here is a paragraph about the data
 
-# A Heading about results
+## A Heading about results
 
-Here's a paragraph about the results
+Here is a paragraph about the results
 
-Gatorgrader can check if this image exists!
-
-![image](images/icon.png)
+Gatorgrader can check if this image exists! [image](images/icon.png)
